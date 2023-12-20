@@ -2,18 +2,21 @@
 
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="6606a0bd-d342-4039-9d63-4f95f9c60ffa"
+    Name="a9ca8063-c0cf-4b84-8ed1-26a01de771ae"
     Publisher="CN=Peter"
     Version="1.0.0.0" />
 
+  <mp:PhoneIdentity PhoneProductId="a9ca8063-c0cf-4b84-8ed1-26a01de771ae" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
   <Properties>
-    <DisplayName>WinUI3</DisplayName>
-    <PublisherDisplayName>wenhao.li</PublisherDisplayName>
+    <DisplayName>2-Spypp-Wrong-WindowSize</DisplayName>
+    <PublisherDisplayName>Peter</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -31,8 +34,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="WinUI3"
-        Description="WinUI3"
+        DisplayName="2-Spypp-Wrong-WindowSize"
+        Description="2-Spypp-Wrong-WindowSize"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">

@@ -1,0 +1,9 @@
+namespace _2_Spypp_Wrong_WindowSize
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Int32 MyProperty;
+    }
+}

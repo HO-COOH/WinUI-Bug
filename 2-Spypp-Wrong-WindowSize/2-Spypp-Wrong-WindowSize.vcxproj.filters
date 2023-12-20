@@ -7,7 +7,6 @@
     <Page Include="MainWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="App.idl" />
     <Midl Include="MainWindow.idl" />
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Assets">
-      <UniqueIdentifier>{e221fe46-f311-44c2-ae56-5da16b79f263}</UniqueIdentifier>
+      <UniqueIdentifier>{b0f1716e-0c18-421a-9d16-58d38105144c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +55,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="WinUI3_TemporaryKey.pfx" />
   </ItemGroup>
 </Project>
