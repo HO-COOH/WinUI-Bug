@@ -1,0 +1,8 @@
+namespace _3_Dialog_Crashes
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
