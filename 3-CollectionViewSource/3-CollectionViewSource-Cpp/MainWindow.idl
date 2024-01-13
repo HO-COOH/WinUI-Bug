@@ -1,0 +1,11 @@
+import "GroupedData.idl";
+namespace _3_CollectionViewSource_Cpp
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+
+        Windows.Foundation.Collections.IObservableVector< _3_CollectionViewSource_Cpp.GroupedData> groups{ get; };
+    }
+}

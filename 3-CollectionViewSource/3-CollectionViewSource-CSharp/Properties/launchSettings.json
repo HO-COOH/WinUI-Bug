@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "3-CollectionViewSource-CSharp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "3-CollectionViewSource-CSharp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

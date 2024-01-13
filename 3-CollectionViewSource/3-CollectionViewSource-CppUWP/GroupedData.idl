@@ -1,0 +1,12 @@
+namespace _3_CollectionViewSource_CppUWP
+{
+    [bindable]
+    [default_interface]
+    runtimeclass GroupedData
+    {
+        GroupedData();
+        String Title{ get; set; };
+        Windows.Foundation.Collections.IObservableVector<String> data; //Does not work
+        //Windows.Foundation.Collections.IObservableVector<String> data{ get; set; };//also not work
+    }
+}

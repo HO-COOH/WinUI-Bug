@@ -1,0 +1,11 @@
+import "GroupedData.idl";
+namespace _3_CollectionViewSource_CppUWP
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+        Windows.Foundation.Collections.IObservableVector< _3_CollectionViewSource_CppUWP.GroupedData> groups{ get; };
+        Windows.UI.Xaml.Data.CollectionViewSource AlphabetGroups{ get; }; //This is needed for UWP
+    }
+}
