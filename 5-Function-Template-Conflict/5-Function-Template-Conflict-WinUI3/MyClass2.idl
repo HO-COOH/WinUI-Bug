@@ -1,0 +1,10 @@
+namespace _5_Function_Template_Conflict_WinUI3
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyClass2 
+    {
+        MyClass2();
+        Object MyProperty;
+    }
+}

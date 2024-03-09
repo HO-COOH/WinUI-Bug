@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="_5_Function_Template_Conflict_UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_5_Function_Template_Conflict_UWP">
+
+</Application>
