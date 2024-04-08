@@ -5,6 +5,6 @@ namespace _5_Function_Template_Conflict_WinUI3
     runtimeclass MyClass1 
     {
         MyClass1();
-        Int32 MyProperty;
+        String MyProperty;
     }
 }

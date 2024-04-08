@@ -8,8 +8,8 @@ namespace winrt::_5_Function_Template_Conflict_WinUI3::implementation
     {
         MyClass1() = default;
 
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
+        winrt::hstring MyProperty();
+        void MyProperty(winrt::hstring value);
     };
 }
 

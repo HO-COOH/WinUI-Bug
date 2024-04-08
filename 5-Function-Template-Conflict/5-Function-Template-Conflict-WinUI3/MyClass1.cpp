@@ -6,12 +6,12 @@
 
 namespace winrt::_5_Function_Template_Conflict_WinUI3::implementation
 {
-    int32_t MyClass1::MyProperty()
+    winrt::hstring MyClass1::MyProperty()
     {
         throw hresult_not_implemented();
     }
 
-    void MyClass1::MyProperty(int32_t /*value*/)
+    void MyClass1::MyProperty(winrt::hstring /*value*/)
     {
         throw hresult_not_implemented();
     }

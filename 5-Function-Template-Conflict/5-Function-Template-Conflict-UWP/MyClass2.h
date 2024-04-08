@@ -8,8 +8,8 @@ namespace winrt::_5_Function_Template_Conflict_UWP::implementation
     {
         MyClass2() = default;
 
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
+        winrt::Windows::Foundation::IInspectable MyProperty();
+        void MyProperty(winrt::Windows::Foundation::IInspectable value);
     };
 }
 

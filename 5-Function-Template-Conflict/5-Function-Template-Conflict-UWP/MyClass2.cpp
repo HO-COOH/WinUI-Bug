@@ -6,12 +6,12 @@
 
 namespace winrt::_5_Function_Template_Conflict_UWP::implementation
 {
-    int32_t MyClass2::MyProperty()
+    winrt::Windows::Foundation::IInspectable MyClass2::MyProperty()
     {
         throw hresult_not_implemented();
     }
 
-    void MyClass2::MyProperty(int32_t /*value*/)
+    void MyClass2::MyProperty(winrt::Windows::Foundation::IInspectable /*value*/)
     {
         throw hresult_not_implemented();
     }
