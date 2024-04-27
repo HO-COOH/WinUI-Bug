@@ -1,0 +1,9 @@
+namespace _6_DependencyPropertyType_CPP
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Int32 MyProperty;
+    }
+}

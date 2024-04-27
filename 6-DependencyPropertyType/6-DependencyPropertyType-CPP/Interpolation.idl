@@ -1,0 +1,18 @@
+namespace _6_DependencyPropertyType_CPP
+{
+    [bindable]
+    [default_interface]
+    runtimeclass Interpolation : Microsoft.UI.Xaml.DependencyObject
+    {
+        Interpolation();
+
+        static Microsoft.UI.Xaml.DependencyProperty LinearProperty{ get; };
+        static void SetLinear(
+            Microsoft.UI.Xaml.UIElement element,
+            Microsoft.UI.Xaml.DependencyProperty value
+        );
+        static Microsoft.UI.Xaml.DependencyProperty GetLinear(
+            Microsoft.UI.Xaml.UIElement element
+        );
+    }
+}
