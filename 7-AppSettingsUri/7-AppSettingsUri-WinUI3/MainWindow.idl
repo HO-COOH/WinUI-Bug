@@ -1,0 +1,8 @@
+namespace _7_AppSettingsUri_WinUI3
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}

@@ -8,5 +8,5 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Dialog-Crashes](https://github.com/microsoft/microsoft-ui-xaml/issues/8913)|WinUI3 App crash when closing an inactive window with a `ContentDialog` opened| WASDK 1.5| :x:
 |[CollectionViewSource not working](https://github.com/microsoft/microsoft-ui-xaml/issues/6619)|`CollectionViewSource` not working with C# public fields and C++WinRT| UWP & WASDK 1.5 | C++ :white_check_mark: C# :x:
 |[Same Property name with different type conflict](https://github.com/microsoft/microsoft-ui-xaml/issues/9419)|Two `runtimeclass` with properties that has the same name but different type will fail to build (this issue only relates to C++) | UWP & WASDK 1.5.2 | UWP :x: WinUI3 :white_check_mark:
-
-|[DependencyPropertyType](https://github.com/microsoft/microsoft-ui-xaml/issues/9313)|Registering attached DependencyProperty of type DependencyProperty throws exception|:x:
+|[DependencyPropertyType](https://github.com/microsoft/microsoft-ui-xaml/issues/9313)|Registering attached DependencyProperty of type DependencyProperty throws exception|WASDK 1.5.2|:x:
+|[Exception launching app settings with uri](https://github.com/microsoft/WindowsAppSDK/issues/4460)|Exception when launching appsfeatures-app settings uri with LaunchUriAsync|WASDK 1.5.2|:x:
