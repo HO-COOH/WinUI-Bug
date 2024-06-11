@@ -10,3 +10,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Same Property name with different type conflict](https://github.com/microsoft/microsoft-ui-xaml/issues/9419)|Two `runtimeclass` with properties that has the same name but different type will fail to build (this issue only relates to C++) | UWP & WASDK 1.5.2 | UWP :x: WinUI3 :white_check_mark:
 |[DependencyPropertyType](https://github.com/microsoft/microsoft-ui-xaml/issues/9313)|Registering attached DependencyProperty of type DependencyProperty throws exception|WASDK 1.5.2|:x:
 |[Exception launching app settings with uri](https://github.com/microsoft/WindowsAppSDK/issues/4460)|Exception when launching appsfeatures-app settings uri with LaunchUriAsync|WASDK 1.5.2|:x:
+|[CrossFadeEffect output opposite as documentation](https://github.com/microsoft/Win2D/issues/956)|Win2d `CrossFadeEffect` output opposite effect as documented|Win2D.WinUI 1.2.0|:x:
