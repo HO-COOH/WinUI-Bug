@@ -11,3 +11,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[DependencyPropertyType](https://github.com/microsoft/microsoft-ui-xaml/issues/9313)|Registering attached DependencyProperty of type DependencyProperty throws exception|WASDK 1.5.2|:x:
 |[Exception launching app settings with uri](https://github.com/microsoft/WindowsAppSDK/issues/4460)|Exception when launching appsfeatures-app settings uri with LaunchUriAsync|WASDK 1.5.2|:x:
 |[CrossFadeEffect output opposite as documentation](https://github.com/microsoft/Win2D/issues/956)|Win2d `CrossFadeEffect` output opposite effect as documented|Win2D.WinUI 1.2.0|:x:
+|[BitmapIcon not respond to ShowAsMonochrome change](https://github.com/microsoft/microsoft-ui-xaml/issues/9792)|BitmapIcon does not respond to ShowAsMonochrome change, and is documented nowhere.|1.6.240701003-exp2|:x:

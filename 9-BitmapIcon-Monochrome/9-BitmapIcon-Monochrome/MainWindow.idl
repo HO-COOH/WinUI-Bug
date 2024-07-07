@@ -1,0 +1,8 @@
+namespace _9_BitmapIcon_Monochrome
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
