@@ -1,0 +1,8 @@
+namespace GetTemplateChildNotTriggeringReload
+{
+    [default_interface]
+    runtimeclass MyControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        MyControl();
+    }
+}
