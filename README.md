@@ -17,3 +17,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[HTML select popup not following webview2](https://github.com/microsoft/microsoft-ui-xaml/issues/9569)|select popup in a web page is not following webview2 control itself when scrolled.|Windows App SDK 1.5.2: 1.5.240404000|:x: They closed as internally tracked. So I have to track it myself.
 |[FindName not working in WinUI3](https://github.com/microsoft/microsoft-ui-xaml/issues/9842)|`FindName()` fails to load a `x:Load="False"` element in winui3, while UWP does|WASDK 1.5.2|:x:
 |[Crash in Microsoft.VisualStudio.DesignTools.WinUITap.dll](https://github.com/microsoft/microsoft-ui-xaml/issues/9884)|WinUI3 app crash in visual studio debugging|WASDK 1.5.2|:x:
+|[ThemeResource failed to assign to custom property](https://github.com/microsoft/microsoft-ui-xaml/issues/9895)|WinUI3 & UWP app crash in assigning custom property with `ThemeResource`|WASDK 1.6 preview| UWP:x:  WinUI3:x:

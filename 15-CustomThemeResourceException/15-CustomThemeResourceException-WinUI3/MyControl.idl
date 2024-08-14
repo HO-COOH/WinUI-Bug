@@ -1,0 +1,9 @@
+namespace _15_CustomThemeResourceException_WinUI3
+{
+    [default_interface]
+    runtimeclass MyControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        MyControl();
+        String StringProperty;
+    }
+}

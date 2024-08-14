@@ -1,0 +1,10 @@
+namespace _15_CustomThemeResourceException_UWP
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyControl : Windows.UI.Xaml.Controls.Control
+    {
+        MyControl();
+        String StringProperty;
+    }
+}
