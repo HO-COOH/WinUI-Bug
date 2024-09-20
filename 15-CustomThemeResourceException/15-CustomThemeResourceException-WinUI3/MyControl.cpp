@@ -4,6 +4,7 @@
 #include "MyControl.g.cpp"
 #endif
 
+
 using namespace winrt;
 using namespace Microsoft::UI::Xaml;
 
@@ -12,8 +13,12 @@ using namespace Microsoft::UI::Xaml;
 
 namespace winrt::_15_CustomThemeResourceException_WinUI3::implementation
 {
+
+
     MyControl::MyControl()
     {
         DefaultStyleKey(winrt::box_value(L"_15_CustomThemeResourceException_WinUI3.MyControl"));
     }
+
+
 }

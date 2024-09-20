@@ -7,11 +7,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="local:MyControl">
-                    <Border
-                        Background="{TemplateBinding Background}"
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}">
-                    </Border>
+                    <TextBlock Text="{TemplateBinding StringProperty}"/>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
