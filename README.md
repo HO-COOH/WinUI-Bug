@@ -19,3 +19,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Crash in Microsoft.VisualStudio.DesignTools.WinUITap.dll](https://github.com/microsoft/microsoft-ui-xaml/issues/9884)|WinUI3 app crash in visual studio debugging|WASDK 1.5.2|:x:
 |[ThemeResource failed to assign to custom property](https://github.com/microsoft/microsoft-ui-xaml/issues/9895)|WinUI3 & UWP app crash in assigning custom property with `ThemeResource`|WASDK 1.6 preview| UWP :x:  WinUI3 :x:
 |[RadioButtons SelectionChanged trigger twice](https://github.com/microsoft/microsoft-ui-xaml/issues/9917)|RadioButtons `SelectionChanged` event trigger twice when selecting another item|Winui2 2.8.6 & WinUI3 1.5.2| UWP-WinUI2 :x: WinUI3 :x:
+|[Registry of HKEY_CLASS_ROOT when registering a custom scheme with uap:Protocol is not cleaned up after uninstall](https://github.com/microsoft/WindowsAppSDK/issues/4739)| \ | WASDK 1.6 | :x:
