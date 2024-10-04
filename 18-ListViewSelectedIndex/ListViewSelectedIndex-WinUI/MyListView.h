@@ -22,7 +22,7 @@ namespace winrt::ListViewSelectedIndex_WinUI::implementation
             winrt::Windows::Foundation::IInspectable const&, 
             winrt::Microsoft::UI::Xaml::Controls::SelectionChangedEventArgs const&)
         {
-            //this prints SelectedIndex = 6
+            //this prints SelectedIndex = 1
             OutputDebugString(std::format(L"Called: {}\n", SelectedIndex()).data());
         }
     };
