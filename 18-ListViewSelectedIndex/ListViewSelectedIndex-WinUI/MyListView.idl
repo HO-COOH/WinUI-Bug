@@ -1,0 +1,9 @@
+namespace ListViewSelectedIndex_WinUI
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyListView : Microsoft.UI.Xaml.Controls.ListViewBase
+    {
+        MyListView();
+    }
+}

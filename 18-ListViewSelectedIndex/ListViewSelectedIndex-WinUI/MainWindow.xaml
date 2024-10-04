@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="ListViewSelectedIndex_WinUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ListViewSelectedIndex_WinUI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <local:MyListView
+        x:Name="List"
+        Loaded="List_Loaded"
+        SelectedIndex="1">
+        <x:String>item1</x:String>
+        <x:String>item2</x:String>
+        <x:String>item3</x:String>
+        <x:String>item4</x:String>
+        <x:String>item5</x:String>
+        <x:String>item6</x:String>
+        <x:String>item7</x:String>
+    </local:MyListView>
+</Window>
