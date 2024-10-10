@@ -21,3 +21,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[RadioButtons SelectionChanged trigger twice](https://github.com/microsoft/microsoft-ui-xaml/issues/9917)|RadioButtons `SelectionChanged` event trigger twice when selecting another item|Winui2 2.8.6 & WinUI3 1.5.2| UWP-WinUI2 :x: WinUI3 :x:
 |[Registry of HKEY_CLASS_ROOT when registering a custom scheme with uap:Protocol is not cleaned up after uninstall](https://github.com/microsoft/WindowsAppSDK/issues/4739)| \ | WASDK 1.6 | :x:
 |[Inheriting from ListView(Base) breaks SelectedIndex selection](https://github.com/microsoft/microsoft-ui-xaml/issues/8257)| `Selector.SelectedIndex` will be changed seemingly by itself if inherit from `ListViewBase` to create a new control | WASDK 1.6 | :x:
+|[TextBox inside a ScrollViewer does not lose focus when click in empty spaces](https://github.com/microsoft/microsoft-ui-xaml/issues/10051) | \ | WASDK 1.6.240923002 | :x:

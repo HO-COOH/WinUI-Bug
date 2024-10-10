@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="_19_TextBoxInsideScrollViewerNotLosingFocus_WinUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:_19_TextBoxInsideScrollViewerNotLosingFocus_WinUI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Background="Red">
+            <TextBox
+                Width="500"
+                VerticalAlignment="Center"
+                PlaceholderText="This TextBox inside ScrollViewer does not lose focus when click in the red area" />
+        </ScrollViewer>
+
+
+        <Grid Grid.Column="1" Background="Blue">
+            <TextBox
+                Width="500"
+                VerticalAlignment="Center"
+                PlaceholderText="This TextBox inside Grid lose focus when click in the blue area" />
+        </Grid>
+    </Grid>
+</Window>

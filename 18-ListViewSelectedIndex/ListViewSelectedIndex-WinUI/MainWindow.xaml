@@ -11,7 +11,7 @@
     <local:MyListView
         x:Name="List"
         Loaded="List_Loaded"
-        SelectedIndex="1">
+        SelectedIndex="6">
         <x:String>item1</x:String>
         <x:String>item2</x:String>
         <x:String>item3</x:String>

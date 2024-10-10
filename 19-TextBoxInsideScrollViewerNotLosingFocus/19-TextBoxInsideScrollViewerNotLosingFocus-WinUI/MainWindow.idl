@@ -1,0 +1,8 @@
+namespace _19_TextBoxInsideScrollViewerNotLosingFocus_WinUI
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
