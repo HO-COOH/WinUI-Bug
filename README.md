@@ -22,3 +22,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Registry of HKEY_CLASS_ROOT when registering a custom scheme with uap:Protocol is not cleaned up after uninstall](https://github.com/microsoft/WindowsAppSDK/issues/4739)| \ | WASDK 1.6 | :x:
 |[Inheriting from ListView(Base) breaks SelectedIndex selection](https://github.com/microsoft/microsoft-ui-xaml/issues/8257)| `Selector.SelectedIndex` will be changed seemingly by itself if inherit from `ListViewBase` to create a new control | WASDK 1.6 | :x:
 |[TextBox inside a ScrollViewer does not lose focus when click in empty spaces](https://github.com/microsoft/microsoft-ui-xaml/issues/10051) | \ | WASDK 1.6.240923002 | :x:
+|[Binding Thickness in Resource crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10078) | x:Bind to any properties of type `Thickness` crashes the app | WASDK 1.6.240923002 | :x:

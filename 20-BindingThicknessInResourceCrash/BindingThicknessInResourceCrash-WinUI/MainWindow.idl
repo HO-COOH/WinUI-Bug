@@ -1,0 +1,10 @@
+namespace BindingThicknessInResourceCrash_WinUI
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Microsoft.UI.Xaml.Thickness MyPadding{ get; };
+        Windows.UI.Color MyColor{ get; };
+    }
+}
