@@ -1,0 +1,8 @@
+namespace VisualStateSetter_WinUI
+{
+    [default_interface]
+    runtimeclass BlankPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        BlankPage();
+    }
+}

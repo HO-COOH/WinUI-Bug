@@ -23,3 +23,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Inheriting from ListView(Base) breaks SelectedIndex selection](https://github.com/microsoft/microsoft-ui-xaml/issues/8257)| `Selector.SelectedIndex` will be changed seemingly by itself if inherit from `ListViewBase` to create a new control | WASDK 1.6 | :x:
 |[TextBox inside a ScrollViewer does not lose focus when click in empty spaces](https://github.com/microsoft/microsoft-ui-xaml/issues/10051) | \ | WASDK 1.6.240923002 | :x:
 |[Binding Thickness in Resource crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10078) | x:Bind to any properties of type `Thickness` crashes the app | WASDK 1.6.240923002 | :x:
+|[Cannot {x:Bind} to property of named non-control in C++/WinRT](https://github.com/microsoft/microsoft-ui-xaml/issues/10130)| {x:Bind} to named non-control in xaml cause compile error | \ | WASDK 1.6.240923002 :x:

@@ -1,0 +1,10 @@
+namespace VisualStateSetter_WinUI
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        
+        static Boolean IsOn(Windows.Foundation.IReference<Boolean> v);
+    }
+}
