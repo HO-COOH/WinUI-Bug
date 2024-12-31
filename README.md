@@ -24,3 +24,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[TextBox inside a ScrollViewer does not lose focus when click in empty spaces](https://github.com/microsoft/microsoft-ui-xaml/issues/10051) | \ | WASDK 1.6.240923002 | :x:
 |[Binding Thickness in Resource crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10078) | x:Bind to any properties of type `Thickness` crashes the app | WASDK 1.6.240923002 | :x:
 |[Cannot {x:Bind} to property of named non-control in C++/WinRT](https://github.com/microsoft/microsoft-ui-xaml/issues/10130)| {x:Bind} to named non-control in xaml cause compile error | \ | WASDK 1.6.240923002 :x:
+|[Setting controls in VisualState crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10264) | \ | WASDK 1.6.241114003 :x: UWP :x:

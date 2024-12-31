@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="_23_VisualStateControlCrash_WinUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:_23_VisualStateControlCrash_WinUI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Vertical">
+        <ComboBox Header="Select state:" SelectionChanged="ComboBox_SelectionChanged">
+            <x:String>State1</x:String>
+            <x:String>State2</x:String>
+        </ComboBox>
+
+        <ContentPresenter x:Name="Presenter" />
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="State1">
+                    <VisualState.Setters>
+                        <Setter Target="Presenter.Content">
+                            <Setter.Value>
+                                <CalendarView />
+                            </Setter.Value>
+                        </Setter>
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="State2">
+                    <VisualState.Setters>
+                        <Setter Target="Presenter.Content">
+                            <Setter.Value>
+                                <Button
+                                    x:Name="State2Button"
+                                    Click="State2Button_Click"
+                                    Content="State 2 Button" />
+                            </Setter.Value>
+                        </Setter>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </StackPanel>
+</Page>

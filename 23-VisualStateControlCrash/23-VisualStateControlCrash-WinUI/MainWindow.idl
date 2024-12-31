@@ -1,0 +1,8 @@
+namespace _23_VisualStateControlCrash_WinUI
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}

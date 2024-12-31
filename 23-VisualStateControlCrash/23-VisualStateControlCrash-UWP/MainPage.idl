@@ -1,0 +1,8 @@
+namespace _23_VisualStateControlCrash_UWP
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+    }
+}
