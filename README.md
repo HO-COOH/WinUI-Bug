@@ -25,3 +25,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Binding Thickness in Resource crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10078) | x:Bind to any properties of type `Thickness` crashes the app | WASDK 1.6.240923002 | :x:
 |[Cannot {x:Bind} to property of named non-control in C++/WinRT](https://github.com/microsoft/microsoft-ui-xaml/issues/10130)| {x:Bind} to named non-control in xaml cause compile error | \ | WASDK 1.6.240923002 :x:
 |[Setting controls in VisualState crash](https://github.com/microsoft/microsoft-ui-xaml/issues/10264) | \ | WASDK 1.6.241114003 :x: UWP :x:
+|[InputNonClientPointerSource no longer works after removing titlebar with SetBorderAndTitleBar](https://github.com/microsoft/microsoft-ui-xaml/issues/9661)| `InputNonClientPointerSource` no longer works after removing titlebar with `SetBorderAndTitleBar(false, false)` | WASDK 1.6.250108002 | :white_check_mark:
