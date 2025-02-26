@@ -1,0 +1,9 @@
+namespace _26_xBindToActualThemeNoUpdate_WinUI
+{
+    [default_interface]
+    runtimeclass MyPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        MyPage();
+        static String ElementThemeToString(Microsoft.UI.Xaml.ElementTheme theme);
+    }
+}

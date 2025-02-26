@@ -1,0 +1,9 @@
+namespace _26_xBindToActualThemeNoUpdate_WinUI
+{
+    [default_interface]
+    runtimeclass MyControl : Microsoft.UI.Xaml.Controls.UserControl
+    {
+        MyControl();
+        Int32 MyProperty;
+    }
+}

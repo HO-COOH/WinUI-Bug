@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="_26_xBindToActualThemeNoUpdate_WinUI.MyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:_26_xBindToActualThemeNoUpdate_WinUI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="RootPage"
+    mc:Ignorable="d">
+
+    <StackPanel>
+        <local:MyControl x:Name="MyControl" />
+        <TextBlock Text="{x:Bind local:MyPage.ElementThemeToString(MyControl.ActualTheme), Mode=OneWay}" />
+    </StackPanel>
+
+</Page>
