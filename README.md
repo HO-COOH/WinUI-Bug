@@ -28,3 +28,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[InputNonClientPointerSource secretly changes region](https://github.com/microsoft/WindowsAppSDK/issues/5168)|Setting the maximize region of a win32 window secretly reverts back to win32 default | WASDK 1.6.250205002 | :x:
 |[InputNonClientPointerSource no longer works after removing titlebar with SetBorderAndTitleBar](https://github.com/microsoft/microsoft-ui-xaml/issues/9661)| `InputNonClientPointerSource` no longer works after removing titlebar with `SetBorderAndTitleBar(false, false)` | WASDK 1.6.250108002 | :white_check_mark:
 |[x:Bind to ActualTheme does not update when the control's theme actually changes](https://github.com/microsoft/microsoft-ui-xaml/issues/10390) | \ | WASDK 1.6.250205002 | :x:
+|[Packaged wasdk app can't even read correct registry value?](https://github.com/microsoft/WindowsAppSDK/issues/5199)| \ | WASDK 1.6.250205002 | :x:
