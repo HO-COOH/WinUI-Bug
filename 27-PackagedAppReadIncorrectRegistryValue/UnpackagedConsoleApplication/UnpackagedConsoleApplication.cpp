@@ -20,7 +20,7 @@ int main()
 			&value,
 			&size
 		);
-		OutputDebugString(std::format(L"{}\n", value).data());
+		puts(std::format("{}", value).data());
 		Sleep(1000);
 	}
 }
