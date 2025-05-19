@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_28_CannotUseInt32AsDataType">
+    <Style TargetType="local:MyControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:MyControl">
+                    <ListView ItemsSource="{Binding Items, RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="x:Int32"/>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,10 @@
+namespace _28_CannotUseInt32AsDataType
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        MyControl();
+        Windows.Foundation.Collections.IObservableVector<Int32> Items{ get; };
+    }
+}

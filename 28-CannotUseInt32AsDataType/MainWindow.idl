@@ -1,0 +1,8 @@
+namespace _28_CannotUseInt32AsDataType
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
