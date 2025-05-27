@@ -1,0 +1,9 @@
+namespace _29_AppWindowMoveWrongDpi
+{
+    [default_interface]
+    runtimeclass TestWindow : Microsoft.UI.Xaml.Window
+    {
+        TestWindow();
+        Int32 MyProperty;
+    }
+}
