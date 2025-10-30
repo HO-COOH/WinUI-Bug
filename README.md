@@ -31,3 +31,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Packaged wasdk app can't even read correct registry value?](https://github.com/microsoft/WindowsAppSDK/issues/5199)| \ | WASDK 1.6.250205002 | :x:
 |[Cannot specify Int32 as DataType in DataTemplate](https://github.com/microsoft/microsoft-ui-xaml/issues/10571) | \ | WASDK 1.7.250401001 | :x:
 |Cannot use normal win32 methods to set fullscreen | Clicking the taskbar once, the taskbar will never disappear when using normal win32 api to fullscreen a winui3 window | 1.8.250906003 | :x:
+|[Cannot get visual tree of TeachingTip](https://github.com/microsoft/microsoft-ui-xaml/issues/10857) | Using VisualTreeHelper to traverse a TeachingTip gives incomplete result | 1.8.250906003 | :x:
