@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="_33_xLoadEvaluateBindingCpp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:_33_xLoadEvaluateBindingCpp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="33-xLoadEvaluateBindingCpp"
+    mc:Ignorable="d">
+
+    <TextBlock
+        x:Name="Text"
+        x:Load="False"
+        Text="{x:Bind MyProperty}" />
+</Window>

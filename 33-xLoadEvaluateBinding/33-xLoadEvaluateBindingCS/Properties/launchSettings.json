@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "33-xLoadEvaluateBindingCS (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "33-xLoadEvaluateBindingCS (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
