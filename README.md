@@ -33,3 +33,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |Cannot use normal win32 methods to set fullscreen | Clicking the taskbar once, the taskbar will never disappear when using normal win32 api to fullscreen a winui3 window | 1.8.250906003 | :x:
 |[Cannot get visual tree of TeachingTip](https://github.com/microsoft/microsoft-ui-xaml/issues/10857) | Using VisualTreeHelper to traverse a TeachingTip gives incomplete result | 1.8.250906003 | :x:
 |[Element with x:Load="False" still evaluates x:Bind](https://github.com/microsoft/microsoft-ui-xaml/issues/10941) | The code-behind `x:Bind` is still called when the element has `x:Load="False"` | 1.8.251106002 | :x:
+|[Enumerating LocalCache folder under package data folder return unexpected result](https://github.com/MicrosoftDocs/msix-docs/issues/497) | \ | MSIX | :x:
