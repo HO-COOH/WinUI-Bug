@@ -1,0 +1,12 @@
+import "ViewModel.idl";
+
+namespace _35_xBindToFunction
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+
+        //ViewModel ViewModel{ get; };
+    }
+}

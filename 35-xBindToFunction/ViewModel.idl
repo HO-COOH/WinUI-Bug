@@ -1,0 +1,12 @@
+namespace _35_xBindToFunction
+{
+    [bindable]
+    [default_interface]
+    runtimeclass ViewModel 
+    {
+        ViewModel();
+
+        Int32 MyProperty;
+        void Print();
+    }
+}
