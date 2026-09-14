@@ -1,0 +1,9 @@
+﻿namespace _36_DifferentXamlBoxingBehaviorCpp
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+
+    }
+}

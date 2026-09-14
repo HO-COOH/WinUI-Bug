@@ -1,0 +1,17 @@
+﻿namespace RuntimeComponent
+{
+    enum ContentAlignment
+    {
+        Right,
+        Left,
+        Vertical
+    };
+
+    [bindable]
+    [default_interface]
+    runtimeclass ViewModel
+    {
+        ViewModel();
+        Object EnumProperty;
+    }
+}

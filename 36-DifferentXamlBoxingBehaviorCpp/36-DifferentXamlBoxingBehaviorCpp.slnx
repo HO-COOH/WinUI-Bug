@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="36-DifferentXamlBoxingBehaviorCpp/36-DifferentXamlBoxingBehaviorCpp.vcxproj" Id="bff93071-1dce-4996-8cf8-a8aa97f0f1e3">
+    <Deploy />
+  </Project>
+  <Project Path="DifferentXamlBoxingBehaviorCSharp/DifferentXamlBoxingBehaviorCSharp.csproj" Id="5da6bef2-6c09-4596-a96c-9ead518aaea0">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+  <Project Path="RuntimeComponent/RuntimeComponent.vcxproj" Id="a21e4df3-e9ea-4344-bf5b-50ae9c3d406a" />
+</Solution>
