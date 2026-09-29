@@ -36,3 +36,4 @@ A repo dedicated for reproducing uwp/windows app sdk bugs
 |[Enumerating LocalCache folder under package data folder return unexpected result](https://github.com/MicrosoftDocs/msix-docs/issues/497) | \ | MSIX | :x:
 |[x:Bind with function binding requires the binding source to be redeclared in idl in C++winrt](https://github.com/microsoft/microsoft-ui-xaml/issues/11491) | \ | 2.3.0 | :x:
 |[Different enum boxing behavior in C++ and C#](https://github.com/microsoft/microsoft-ui-xaml/issues/11885) | \ | 2.4.0 | :x:
+|[ContentPresenter silently falls back to binding to ContentControl.Content in ControlTemplate](https://github.com/microsoft/microsoft-ui-xaml/issues/12088) | \ | 2.5.1 | :x:

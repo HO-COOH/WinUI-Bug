@@ -1,0 +1,11 @@
+namespace _37_ContentPresenterFallback
+{
+    [bindable]
+    [default_interface]
+    runtimeclass MyControl : Microsoft.UI.Xaml.Controls.ContentControl
+    {
+        MyControl();
+        Object AnotherContent{ get; };
+		static Microsoft.UI.Xaml.DependencyProperty AnotherContentProperty{ get; };
+    }
+}
